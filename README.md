@@ -13,9 +13,9 @@
 ### Incializar la base de datos a través de SqlAlchemy
 Ingresar a una consola de python (ipython) y digitar las siguientes líneas de código:
 
->>> from bookmanager import db
+>>> from nombredelmmdulo import basededatos
 
->>> db.create_all()
+>>> basededatos.create_all()
 
 >>> exit()
 

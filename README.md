@@ -10,3 +10,9 @@
 - Entornos virtuales
 - Paquetes listados en el archivo requeriments.txt
 
+### Incializar la base de datos a través de SqlAlchemy
+Ingresar a una consola de python (ipython) y digitar las siguientes líneas de código
+>>> from bookmanager import db
+>>> db.create_all()
+>>> exit()
+
